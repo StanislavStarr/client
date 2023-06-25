@@ -1,0 +1,12 @@
+export type Env = {
+  REACT_APP_URL_POSTS?: string;
+  REACT_APP_URL_NEWPOST?: string;
+  REACT_APP_URL_EDITPOST?: string;
+  REACT_APP_URL_DELETEPOST?: string;
+  REACT_APP_URL_REGISTER?: string;
+  REACT_APP_URL_LOGIN?: string;
+  REACT_APP_URL_USER_CHECK?: string;
+  REACT_APP_URL_USER_LOGOUT?: string;
+  REACT_APP_URL_COMMENTS?: string;
+  REACT_APP_URL_NEW_COMMENT?: string;
+};

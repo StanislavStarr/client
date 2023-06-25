@@ -1,0 +1,36 @@
+.disable {
+  display: none;
+}
+
+.activ {
+  display: block;
+}
+
+.img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+}
+
+.comment {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.left,
+.right {
+  display: inline-block;
+  width: 100%;
+  margin-right: -100%;
+}
+
+.right {
+  text-align: right;
+}
